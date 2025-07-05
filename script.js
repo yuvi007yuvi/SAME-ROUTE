@@ -129,7 +129,7 @@ function processCsvData(csvText, reportContainer, summaryCard) {
                 cardsHtml += `<li>
                                     <strong>Route Name:</strong> ${route.routeName}<br>
                                     <strong>Route ID:</strong> ${route.fullRouteIdentifier}<br>
-                                    <strong>WAD NAME:</strong> ${route.wadName}
+                                    <strong>WARD NAME:</strong> ${route.wadName}
                                   </li>`;
             });
             cardsHtml += `</ul>
